@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11201"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="MainGameView" id="iN0-l3-epB" customClass="MainGameView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0U5-kp-3aU">
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wka-HX-8W8">
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0U5-kp-3aU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BDV-7s-I8u"/>
+                <constraint firstItem="wka-HX-8W8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="67" id="DkY-oJ-N5Q"/>
+                <constraint firstAttribute="trailing" secondItem="wka-HX-8W8" secondAttribute="trailing" constant="68" id="I5l-9r-hK6"/>
+                <constraint firstAttribute="bottom" secondItem="wka-HX-8W8" secondAttribute="bottom" constant="120" id="KZN-ZT-RBv"/>
+                <constraint firstItem="wka-HX-8W8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="419" id="Kwr-Jp-WH1"/>
+                <constraint firstAttribute="trailing" secondItem="0U5-kp-3aU" secondAttribute="trailing" constant="68" id="g3G-M2-iz4"/>
+                <constraint firstItem="wka-HX-8W8" firstAttribute="top" secondItem="0U5-kp-3aU" secondAttribute="bottom" constant="224" id="ngd-rw-rCB"/>
+                <constraint firstItem="wka-HX-8W8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="quX-cb-isR"/>
+                <constraint firstItem="0U5-kp-3aU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="67" id="t2r-hR-Vzs"/>
+                <constraint firstItem="0U5-kp-3aU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="67" id="tAi-2R-Req"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

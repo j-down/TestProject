@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     var answerChoicesView:DDAnswerChoicesView!
     var topView:TopView!
+    var mainGameView:MainGameView!
     
     
     override func viewDidLoad() {
@@ -23,12 +24,8 @@ class ViewController: UIViewController {
     
     func setup() {
         
-        setupAnswerChoicesView()
-        presentAnswerChoicesView()
-        
-        setupTopView()
-        presentTopView()
- 
+        setupTheView()
+        presentTheView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,7 +42,6 @@ extension ViewController {
     func setupTopView() {
         
         topView = Bundle.main.loadNibNamed("TopView", owner:self, options: [:])?[0] as! TopView
-        topView.center = CGPoint(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.midY)
     }
     
     func presentTopView() {
@@ -65,7 +61,6 @@ extension ViewController {
     func setupAnswerChoicesView() {
         
         answerChoicesView = Bundle.main.loadNibNamed("DDAnswerChoicesView", owner: self, options: [:])?[0] as! DDAnswerChoicesView
-        answerChoicesView.center = CGPoint(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.midY)
         answerChoicesView.backgroundColor = UIColor.red
         
         let choiceOneGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(choiceOneButtonPressesd))
@@ -121,3 +116,31 @@ extension ViewController {
     
     
 }
+//
+////MARK: View
+//extension ViewController {
+//    
+//    func setupTheView() {
+//        
+//        mainGameView = Bundle.main.loadNibNamed("MainGameView", owner:self, options: [:])?[0] as! MainGameView
+//        mainGameView.frame = view.frame
+//        mainGameView.center = CGPoint(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.midY)
+//        
+//        setupTopView()
+//        setupAnswerChoicesView()
+//        
+//        mainGameView.topView = topView as! TopView
+//        mainGameView.answerChoicesView = answerChoicesView as! DDAnswerChoicesView
+//    }
+//    
+//    func presentTheView() {
+//        
+//        view.addSubview(mainGameView)
+//    }
+//    
+//
+//    func removeTheView() {
+//        mainGameView.removeFromSuperview()
+//    }
+//    
+//}

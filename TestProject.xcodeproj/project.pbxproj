@@ -23,6 +23,8 @@
 		A22131C81E4272FF0042272E /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22131C71E4272FF0042272E /* TopView.xib */; };
 		A22131CA1E42730D0042272E /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22131C91E42730D0042272E /* TopView.swift */; };
 		A22131CC1E4285770042272E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A22131CB1E4285770042272E /* GoogleService-Info.plist */; };
+		A22131CE1E42870F0042272E /* MainGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22131CD1E42870F0042272E /* MainGameView.xib */; };
+		A22131D01E428B040042272E /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22131CF1E428B040042272E /* MainGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		A22131C71E4272FF0042272E /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
 		A22131C91E42730D0042272E /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		A22131CB1E4285770042272E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A22131CD1E42870F0042272E /* MainGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainGameView.xib; sourceTree = "<group>"; };
+		A22131CF1E428B040042272E /* MainGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
 		F89926E31196E27FB44A26D8 /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,6 +149,8 @@
 				710D812C1E396A8C00697D80 /* LaunchScreen.storyboard */,
 				710D812F1E396A8C00697D80 /* Info.plist */,
 				A22131C21E425B040042272E /* Main.storyboard */,
+				A22131CD1E42870F0042272E /* MainGameView.xib */,
+				A22131CF1E428B040042272E /* MainGameView.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22131CE1E42870F0042272E /* MainGameView.xib in Resources */,
 				A22131C81E4272FF0042272E /* TopView.xib in Resources */,
 				710D812E1E396A8C00697D80 /* LaunchScreen.storyboard in Resources */,
 				710D81541E396B5500697D80 /* DDAnswerChoicesView.xib in Resources */,
@@ -495,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				710D81521E396B0500697D80 /* DDAnswerChoicesView.swift in Sources */,
+				A22131D01E428B040042272E /* MainGameView.swift in Sources */,
 				A22131CA1E42730D0042272E /* TopView.swift in Sources */,
 				710D81261E396A8C00697D80 /* ViewController.swift in Sources */,
 				710D81571E39714500697D80 /* DDNewPersonViewController.swift in Sources */,
