@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     var answerChoicesView:DDAnswerChoicesView!
     var topView:TopView!
-    var mainGameView:MainGameView!
+    var mainGameView:MainView!
     
     
     override func viewDidLoad() {
@@ -116,31 +116,40 @@ extension ViewController {
     
     
 }
-//
-////MARK: View
-//extension ViewController {
-//    
-//    func setupTheView() {
-//        
-//        mainGameView = Bundle.main.loadNibNamed("MainGameView", owner:self, options: [:])?[0] as! MainGameView
-//        mainGameView.frame = view.frame
-//        mainGameView.center = CGPoint(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.midY)
-//        
-//        setupTopView()
-//        setupAnswerChoicesView()
-//        
-//        mainGameView.topView = topView as! TopView
-//        mainGameView.answerChoicesView = answerChoicesView as! DDAnswerChoicesView
-//    }
-//    
-//    func presentTheView() {
-//        
-//        view.addSubview(mainGameView)
-//    }
-//    
-//
-//    func removeTheView() {
-//        mainGameView.removeFromSuperview()
-//    }
-//    
-//}
+
+//MARK: View
+extension ViewController {
+    
+    func setupTheView() {
+        
+        mainGameView = Bundle.main.loadNibNamed("MainView", owner:self, options: [:])?[0] as! MainView
+        mainGameView.frame = view.frame
+        mainGameView.center = CGPoint(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.midY)
+        
+        setupTopView()
+        setupAnswerChoicesView()
+        
+        topView.frame = mainGameView.topView.frame
+        answerChoicesView.frame = mainGameView.answerChoicesView.frame
+        
+        topView.addConstraints(mainGameView.topView.constraints)
+        answerChoicesView.addConstraints(mainGameView.answerChoicesView.constraints)
+        
+        mainGameView.topView.removeFromSuperview()
+        mainGameView.answerChoicesView.removeFromSuperview()
+        
+        mainGameView.addSubview(topView)
+        mainGameView.addSubview(answerChoicesView)
+    }
+    
+    func presentTheView() {
+        
+        view.addSubview(mainGameView)
+    }
+    
+
+    func removeTheView() {
+        mainGameView.removeFromSuperview()
+    }
+    
+}

@@ -17,14 +17,14 @@
 		710D81521E396B0500697D80 /* DDAnswerChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710D81511E396B0500697D80 /* DDAnswerChoicesView.swift */; };
 		710D81541E396B5500697D80 /* DDAnswerChoicesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710D81531E396B5500697D80 /* DDAnswerChoicesView.xib */; };
 		710D81571E39714500697D80 /* DDNewPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710D81561E39714500697D80 /* DDNewPersonViewController.swift */; };
+		71E6866E1E4290DD0016BE11 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E6866D1E4290DD0016BE11 /* MainView.xib */; };
+		71E686701E4290E80016BE11 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E6866F1E4290E80016BE11 /* MainView.swift */; };
 		8ECEEDDC35BCE8C98EF4C801 /* Pods_TestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89926E31196E27FB44A26D8 /* Pods_TestProject.framework */; };
 		8FAA57B631D1408491F3A161 /* Pods_TestProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B10E90191A245190C1F21C8 /* Pods_TestProjectTests.framework */; };
 		A22131C41E425B040042272E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22131C21E425B040042272E /* Main.storyboard */; };
 		A22131C81E4272FF0042272E /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22131C71E4272FF0042272E /* TopView.xib */; };
 		A22131CA1E42730D0042272E /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22131C91E42730D0042272E /* TopView.swift */; };
 		A22131CC1E4285770042272E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A22131CB1E4285770042272E /* GoogleService-Info.plist */; };
-		A22131CE1E42870F0042272E /* MainGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22131CD1E42870F0042272E /* MainGameView.xib */; };
-		A22131D01E428B040042272E /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22131CF1E428B040042272E /* MainGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +65,8 @@
 		710D81511E396B0500697D80 /* DDAnswerChoicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDAnswerChoicesView.swift; sourceTree = "<group>"; };
 		710D81531E396B5500697D80 /* DDAnswerChoicesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDAnswerChoicesView.xib; sourceTree = "<group>"; };
 		710D81561E39714500697D80 /* DDNewPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNewPersonViewController.swift; sourceTree = "<group>"; };
+		71E6866D1E4290DD0016BE11 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		71E6866F1E4290E80016BE11 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8B10E90191A245190C1F21C8 /* Pods_TestProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		937BBCE654E29A1C0BA216DA /* Pods-TestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.release.xcconfig"; sourceTree = "<group>"; };
 		95D0310AC190D003C30A66AD /* Pods-TestProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestProjectTests/Pods-TestProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,8 +74,6 @@
 		A22131C71E4272FF0042272E /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
 		A22131C91E42730D0042272E /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		A22131CB1E4285770042272E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A22131CD1E42870F0042272E /* MainGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainGameView.xib; sourceTree = "<group>"; };
-		A22131CF1E428B040042272E /* MainGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
 		F89926E31196E27FB44A26D8 /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +142,7 @@
 			children = (
 				A22131CB1E4285770042272E /* GoogleService-Info.plist */,
 				710D81231E396A8C00697D80 /* AppDelegate.swift */,
+				71E686711E4290FA0016BE11 /* MainView */,
 				A22131C61E4272CF0042272E /* TopView */,
 				A22131C51E4267610042272E /* Controllers  */,
 				710D81551E396B5E00697D80 /* AnswerChocies */,
@@ -149,8 +150,6 @@
 				710D812C1E396A8C00697D80 /* LaunchScreen.storyboard */,
 				710D812F1E396A8C00697D80 /* Info.plist */,
 				A22131C21E425B040042272E /* Main.storyboard */,
-				A22131CD1E42870F0042272E /* MainGameView.xib */,
-				A22131CF1E428B040042272E /* MainGameView.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -180,6 +179,15 @@
 				710D81531E396B5500697D80 /* DDAnswerChoicesView.xib */,
 			);
 			name = AnswerChocies;
+			sourceTree = "<group>";
+		};
+		71E686711E4290FA0016BE11 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				71E6866D1E4290DD0016BE11 /* MainView.xib */,
+				71E6866F1E4290E80016BE11 /* MainView.swift */,
+			);
+			name = MainView;
 			sourceTree = "<group>";
 		};
 		A22131C51E4267610042272E /* Controllers  */ = {
@@ -332,12 +340,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22131CE1E42870F0042272E /* MainGameView.xib in Resources */,
 				A22131C81E4272FF0042272E /* TopView.xib in Resources */,
 				710D812E1E396A8C00697D80 /* LaunchScreen.storyboard in Resources */,
 				710D81541E396B5500697D80 /* DDAnswerChoicesView.xib in Resources */,
 				710D812B1E396A8C00697D80 /* Assets.xcassets in Resources */,
 				A22131C41E425B040042272E /* Main.storyboard in Resources */,
+				71E6866E1E4290DD0016BE11 /* MainView.xib in Resources */,
 				A22131CC1E4285770042272E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				710D81521E396B0500697D80 /* DDAnswerChoicesView.swift in Sources */,
-				A22131D01E428B040042272E /* MainGameView.swift in Sources */,
+				71E686701E4290E80016BE11 /* MainView.swift in Sources */,
 				A22131CA1E42730D0042272E /* TopView.swift in Sources */,
 				710D81261E396A8C00697D80 /* ViewController.swift in Sources */,
 				710D81571E39714500697D80 /* DDNewPersonViewController.swift in Sources */,
