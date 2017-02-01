@@ -22,7 +22,7 @@
 		A22131C41E425B040042272E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22131C21E425B040042272E /* Main.storyboard */; };
 		A22131C81E4272FF0042272E /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22131C71E4272FF0042272E /* TopView.xib */; };
 		A22131CA1E42730D0042272E /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22131C91E42730D0042272E /* TopView.swift */; };
-		A287926E1E3E964F00C70880 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A287926D1E3E964F00C70880 /* GoogleService-Info.plist */; };
+		A22131CC1E4285770042272E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A22131CB1E4285770042272E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 		A22131C31E425B040042272E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A22131C71E4272FF0042272E /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
 		A22131C91E42730D0042272E /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
-		A287926D1E3E964F00C70880 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A22131CB1E4285770042272E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F89926E31196E27FB44A26D8 /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,7 +136,7 @@
 		710D81221E396A8C00697D80 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
-				A287926D1E3E964F00C70880 /* GoogleService-Info.plist */,
+				A22131CB1E4285770042272E /* GoogleService-Info.plist */,
 				710D81231E396A8C00697D80 /* AppDelegate.swift */,
 				A22131C61E4272CF0042272E /* TopView */,
 				A22131C51E4267610042272E /* Controllers  */,
@@ -331,7 +331,7 @@
 				710D81541E396B5500697D80 /* DDAnswerChoicesView.xib in Resources */,
 				710D812B1E396A8C00697D80 /* Assets.xcassets in Resources */,
 				A22131C41E425B040042272E /* Main.storyboard in Resources */,
-				A287926E1E3E964F00C70880 /* GoogleService-Info.plist in Resources */,
+				A22131CC1E4285770042272E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
